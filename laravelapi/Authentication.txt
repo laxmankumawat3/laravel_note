@@ -1,0 +1,7 @@
+********** there are two way to authentication user in laravel******
+
+1. static key -> that is store in database and when ever user call a route with 
+static key larave match with that is store in database and procied process
+
+2. access_token 
+laravel passport package that is use to authenticat in laravel

@@ -1,0 +1,18 @@
+soft delete karne ke rule in laravel 
+#in Modal 
+1.Namespace :use Illuminate\Databse\Eloquent\SoftDeletes
+2.Invoking: use SoftDeletes:
+
+3. creating a softdelete column : $table->softDeletes();write in this migration 
+4 other important functions
+
+withTrashed();->retrive both data trash or non trash
+onlyTrashed();->fetch only trash data 
+restore();
+forceDelete();
+
+its 4 step process 
+1.find 
+2.if exit 
+3.delete update and restore and edit 
+4.redirected

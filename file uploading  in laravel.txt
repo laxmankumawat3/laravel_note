@@ -1,0 +1,9 @@
+in file handling controller 
+1 . $request->file('key')->store('folderName');
+that folder automatically make in storege/app directory;
+
+->becase store fuction automatically drop app folder in storegefolder;
+
+2. make own name file 
+$filename = time()."ws.".$request->file('key')->getClientOriginalExtension();
+$request->file('key')->storeAs('uploads',$filename);

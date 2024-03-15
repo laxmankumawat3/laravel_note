@@ -1,0 +1,24 @@
+#retrieving data:
+$request->session()->get('key');
+or session('key');
+
+# retriving all session data ;
+$request->session()->all();
+session()->all();
+
+#determing if an item Exists in the session
+$request->session()->has('key');
+session()->has('key');
+
+##storing data;
+$request->session()->put('key','value');
+session(['key'=>'value']);
+
+## flash data;=>its meaning only show data one time 
+$request->session()->flash('status','Task was successfully');
+session()->all();
+
+##deleting data
+$request->session()->forget('key');
+$request->session()->forget(['key1','key2']);
+$request->session()->flash();

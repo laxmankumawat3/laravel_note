@@ -1,0 +1,2 @@
+this is package in laravel html collective 
+what is this package is do ->> its use to make form in laravel to replace html form in laravel 

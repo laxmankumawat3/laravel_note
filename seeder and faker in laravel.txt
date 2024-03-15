@@ -1,0 +1,7 @@
+seeder is used to insert large amaunt of data in database 
+faker -is use to generate random data ;
+
+now how to make seeder and run it 
+
+1.make -> php artisan make:seeder seederName;
+2. run -> php artisan db:seed; this line call DatabaseSeeder.php file that is holde owe seeder 

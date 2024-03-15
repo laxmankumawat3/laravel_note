@@ -1,0 +1,4 @@
+m => modal that is database design
+v => view tha i want to show in ui 
+c => controller that is use to creact login that is know a controller 
+shortcut -> select text then control +D select all same text;

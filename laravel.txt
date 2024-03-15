@@ -1,0 +1,63 @@
+why laravel ? 
+
+1. mvc support and object-oriented approch
+2. build in authentication and authorization
+3.packaging system 
+4.multiple file system
+5.artisan console
+6.Eloquent ORM (object relation databade manegment) it manege database
+7.templating engine -> blade
+8.task scheduling 
+9.Events and Broadcasting 
+10.test and many more 
+
+
+# laravel directry and folder structure 
+1.app/console/kerne.php => it use to holde custom artisan command
+2.Handler.php -> costom handle run time error handle karne ke liye 
+3.middleware configation is app/http/kerne.php main karte hai
+
+4.bootsrap folder is used to speed up laravel projects;
+5.database/migrations folder is used to haddle database table we use to this when i create a tabel in database and database ke ander factorice and seedes is use to create fake data when we in testing fahse
+##
+6.pulic/index.php is first file to exute -
+##
+7.routes/web.php is use to handle web route and api.php is use to handle api  routing in laravel
+8.and view to resource /view ke ander welcome.blade.php is file to see view 
+9.vendor is hold packages in laravel
+
+
+### routing in laravel 
+1. routing files in laravel 
+2.routing method 
+3.configuring custom rout 
+4.handle query with routing 
+note -> baseurl/api/ ke bad me route lagana padata hai laravel main;
+
+##blade directreive
+@if @elseif , @else and @endif
+@unless and @endunless
+@isset and @endisset
+
+##layoutblade directives
+@yield , @section,@extends
+############note that ########
+##when @include directives is call it stand on view ;
+@include or @extends stand on view than you give after path
+## controller 
+
+m v  c
+modal -> databse 
+v -> view 
+c -> controller that is middle part of modal and view 
+type of controller in laravel 
+3 type of controller in laravel 
+1. basic controller ->commands php artisan make:controller UserController
+2. single Action controller -> php artisan make:controller ProvisionServer --invokable
+3. resource controller ->CURD opereation ke liya use karte hai
+
+## form validatin 
+## component 
+##database configuration 
+
+

@@ -1,0 +1,19 @@
+to make search in laravel 
+  public function view(Request $request){
+        $search = $request['search']  ?? "";
+        
+        if($search !== ""){
+            // where query chalani hai
+            $customer = Customer::where("name","LIKE","%$search%")->orWhere("email","LIKE","%$search%")->get();
+        }else{
+            $customer = Customer::all();
+        }
+      
+        $data = compact('customer','search');
+        return view ('customer-view')->with($data);
+    }
+
+
+
+//// paginations
+

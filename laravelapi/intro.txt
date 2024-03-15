@@ -1,0 +1,38 @@
+********* step to install *****************
+1. install a code editor 
+2. install xampp, wamp, lamp 
+3. install composer,and give path of php.exc file of 
+4. install laravel Globally 
+5. install laravel Project 
+
+
+
+
+************** Htpp request method 
+1. what is http request method
+2.type of https request method
+3.what is idempotence->ek kaam jo ho chuka hai fir bi use baar baar karwan is indempotent kahte hai for example -> put method se update karne ke baad main fir se update karna;same data is like indempotence 
+4. https request method in laravel
+
+--------------web.php ----------------------
+*********** step to stat ***********
+1. create migration
+2. create modal 
+3. creaate controller 
+4. create route for controller view and create a view  go to  resource folder and create a blade file for view 
+5. middleware if required
+6. test the api in postman 
+7. go live 
+
+************** api.php 
+baseurl/api/then route name
+
+
+*********** step to stat ***********
+1. create migration
+2. create modal 
+3. creaate controller 
+4. create route for controller 
+5. middleware if required
+6. test the api in postman 
+7. go live 

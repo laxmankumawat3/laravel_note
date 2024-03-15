@@ -1,0 +1,9 @@
+go to composer.json and inside autoload crete 
+"files" : [app/helper.php] file and run command in terminal -> composer dump-autoload
+
+##Accessor and Mutator in laravel using Eloquent ORM ;
+//mutator is used to modify data before saveing data to database
+1, a mutator transforms an Eloquent attribute value when it is set, 
+2. define a set{Attribute}Attribute method on your modal where {Attribute} is the "name,email(columName)" cased name of the column you wish to access
+//Accessor is used to modify data before "getting"  data to database
+3. get{Attribute}Attribute stantence;

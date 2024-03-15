@@ -1,0 +1,4 @@
+not that => anchor <a> button hit -> get ,put , delete and many more but not hit post ,   only form tage hit post request 
+1.url()-> it give you base url 
+2. route-> it used to create name route -> it give erro when not any route match 404
+

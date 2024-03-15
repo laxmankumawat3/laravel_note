@@ -1,0 +1,35 @@
+Migrations are like version control for your database,it use to create table and track
+##first time cahe maintaine karne ke liye command -> php artisan config:cache
+0. clear terminal command -> cls then press enter
+2. then migrate ->  php artisan migrate ;* this command is use to save table in databse 
+3.creating tabel in laravel using migration -> php artisan make:migration create_flights_table;
+4.rollback tabel or delete tabe from databse use ->php artisan migrate:rollback
+5. if some issue is created while creating a migration use -> php artisan migrate:refresh
+
+6. add new colum in table use -> php artisan make:migration add_columnName_to_tabelName_table=>it use to create direct create column 
+php artisan make:migration add_columns_to_tabelName_table->inside this define column
+
+
+## modal in laravel ##
+1. what is modal create a modal and how to connect modal with database
+modal in laravel is php class based file and laravel includes Eloquent , an object-relational mapper (ORM) THAT make it enjoyable to interact with your databse
+2.each database has table corressponding "MODAL" THAT is use to intract with table
+3. make modal for table -> php artisan make:model <ModalName>
+4. create migration with modal -> php artisan make:model <modalName> --migration
+
+##insert query in larave using ORM 
+data(view) -> route -> controller -> modal -> database main insert karta hai 
+## select query in larave using orm 
+route -> controller -> modal se data fetch and send to -> view 
+##delete query in laravel using ORM sent id url using url and route method 
+
+
+
+**************** steps to create and access table ***********
+1. create migrations+> php artisan make:migration create_flights_table;
+2. php artisan migrate
+3. make modle to access database table 
+4. add that modal in controller file 
+5. make route to call controller 
+
+that's it 

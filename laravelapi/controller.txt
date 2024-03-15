@@ -1,0 +1,13 @@
+to make controller in api 
+1. php artisan make:controller /api/userController --resource
+
+*************** important ***********
+route-> controller -> MOdal -> database se connect 
+migration is use to create and update table and table column
+
+https api method 
+1. get()
+2. post();
+3. delete();
+4. put()-> update all column
+5. patch()-> update only one column

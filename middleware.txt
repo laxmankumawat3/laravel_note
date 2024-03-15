@@ -1,0 +1,79 @@
+Middleware provide a convenient mechanism for inspecting and filtering http request entering your application
+
+1.to create a new middleware , use the make:middleware Artisan command
+2. e.g. php artisan make:middleware WebGuard 
+3. its php class based file 
+
+
+*************** Global Midddleware *************************
+if you want a middleware to run during every http request to your application ,list the middleware class in the $middleware property of your=> app/Http/Kernel.php class
+
+
+*********** step s **************]
+1. make middleware -> php artisan make:middleware NameofMiddleware
+2. config in kernel -> app/Http/Kernel.php
+3. reconfig your application -> php artisan config:cache;
+
+
+************* Route and Group middleware**********
+0. if you would like to assign middleware to specific routes, you should first assign
+the middleware a key in your application's aap/Http/Kernel.php file.
+
+1.the $routeMiddleware property of this class contains entries for the middlewar include with laravel. 
+
+*********** grop middleware **********
+$middlewareGrops propery in kernel.php in app/Http/Kernel.php
+
+1sometimes you may want to grop several middleware under a single key to make them 
+easier to assign to routes. you May accomplish this using the $middlewareGrops property of your http kernel ;
+2. laravel comes with web and api middleware groups that contain common middleware you may want to apply to your web and api routes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+now two table
+1 member table in this table row is 
+id , name , email , contact , group_id(make this forign key)
+2. second 'groups' table 
+group_id, name, 
+
+in migration of member 
+$table->unsignedBigInteger('group_id')
+$table->foreign('group_id')->references('group_id')->on('groups')that is table name
+
+  
